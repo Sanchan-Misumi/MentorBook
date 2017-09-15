@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE567FCB1F6C2B680081B0F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE567FCA1F6C2B680081B0F6 /* AppDelegate.swift */; };
+		EE567FCD1F6C2B680081B0F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE567FCC1F6C2B680081B0F6 /* ViewController.swift */; };
+		EE567FD01F6C2B680081B0F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE567FCE1F6C2B680081B0F6 /* Main.storyboard */; };
+		EE567FD21F6C2B680081B0F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE567FD11F6C2B680081B0F6 /* Assets.xcassets */; };
+		EE567FD51F6C2B680081B0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE567FD31F6C2B680081B0F6 /* LaunchScreen.storyboard */; };
+		EE567FE01F6C2B680081B0F6 /* MenterBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE567FDF1F6C2B680081B0F6 /* MenterBookTests.swift */; };
+		EE567FEB1F6C2B680081B0F6 /* MenterBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE567FEA1F6C2B680081B0F6 /* MenterBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE567FDC1F6C2B680081B0F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE567FBF1F6C2B680081B0F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE567FC61F6C2B680081B0F6;
+			remoteInfo = MenterBook;
+		};
+		EE567FE71F6C2B680081B0F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE567FBF1F6C2B680081B0F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE567FC61F6C2B680081B0F6;
+			remoteInfo = MenterBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE567FC71F6C2B680081B0F6 /* MenterBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenterBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE567FCA1F6C2B680081B0F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE567FCC1F6C2B680081B0F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE567FCF1F6C2B680081B0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE567FD11F6C2B680081B0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE567FD41F6C2B680081B0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE567FD61F6C2B680081B0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE567FDB1F6C2B680081B0F6 /* MenterBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenterBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE567FDF1F6C2B680081B0F6 /* MenterBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenterBookTests.swift; sourceTree = "<group>"; };
+		EE567FE11F6C2B680081B0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE567FE61F6C2B680081B0F6 /* MenterBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenterBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE567FEA1F6C2B680081B0F6 /* MenterBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenterBookUITests.swift; sourceTree = "<group>"; };
+		EE567FEC1F6C2B680081B0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE567FC41F6C2B680081B0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE567FD81F6C2B680081B0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE567FE31F6C2B680081B0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE567FBE1F6C2B680081B0F6 = {
+			isa = PBXGroup;
+			children = (
+				EE567FC91F6C2B680081B0F6 /* MenterBook */,
+				EE567FDE1F6C2B680081B0F6 /* MenterBookTests */,
+				EE567FE91F6C2B680081B0F6 /* MenterBookUITests */,
+				EE567FC81F6C2B680081B0F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE567FC81F6C2B680081B0F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE567FC71F6C2B680081B0F6 /* MenterBook.app */,
+				EE567FDB1F6C2B680081B0F6 /* MenterBookTests.xctest */,
+				EE567FE61F6C2B680081B0F6 /* MenterBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE567FC91F6C2B680081B0F6 /* MenterBook */ = {
+			isa = PBXGroup;
+			children = (
+				EE567FCA1F6C2B680081B0F6 /* AppDelegate.swift */,
+				EE567FCC1F6C2B680081B0F6 /* ViewController.swift */,
+				EE567FCE1F6C2B680081B0F6 /* Main.storyboard */,
+				EE567FD11F6C2B680081B0F6 /* Assets.xcassets */,
+				EE567FD31F6C2B680081B0F6 /* LaunchScreen.storyboard */,
+				EE567FD61F6C2B680081B0F6 /* Info.plist */,
+			);
+			path = MenterBook;
+			sourceTree = "<group>";
+		};
+		EE567FDE1F6C2B680081B0F6 /* MenterBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE567FDF1F6C2B680081B0F6 /* MenterBookTests.swift */,
+				EE567FE11F6C2B680081B0F6 /* Info.plist */,
+			);
+			path = MenterBookTests;
+			sourceTree = "<group>";
+		};
+		EE567FE91F6C2B680081B0F6 /* MenterBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE567FEA1F6C2B680081B0F6 /* MenterBookUITests.swift */,
+				EE567FEC1F6C2B680081B0F6 /* Info.plist */,
+			);
+			path = MenterBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE567FC61F6C2B680081B0F6 /* MenterBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE567FEF1F6C2B680081B0F6 /* Build configuration list for PBXNativeTarget "MenterBook" */;
+			buildPhases = (
+				EE567FC31F6C2B680081B0F6 /* Sources */,
+				EE567FC41F6C2B680081B0F6 /* Frameworks */,
+				EE567FC51F6C2B680081B0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenterBook;
+			productName = MenterBook;
+			productReference = EE567FC71F6C2B680081B0F6 /* MenterBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE567FDA1F6C2B680081B0F6 /* MenterBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE567FF21F6C2B680081B0F6 /* Build configuration list for PBXNativeTarget "MenterBookTests" */;
+			buildPhases = (
+				EE567FD71F6C2B680081B0F6 /* Sources */,
+				EE567FD81F6C2B680081B0F6 /* Frameworks */,
+				EE567FD91F6C2B680081B0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE567FDD1F6C2B680081B0F6 /* PBXTargetDependency */,
+			);
+			name = MenterBookTests;
+			productName = MenterBookTests;
+			productReference = EE567FDB1F6C2B680081B0F6 /* MenterBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE567FE51F6C2B680081B0F6 /* MenterBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE567FF51F6C2B680081B0F6 /* Build configuration list for PBXNativeTarget "MenterBookUITests" */;
+			buildPhases = (
+				EE567FE21F6C2B680081B0F6 /* Sources */,
+				EE567FE31F6C2B680081B0F6 /* Frameworks */,
+				EE567FE41F6C2B680081B0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE567FE81F6C2B680081B0F6 /* PBXTargetDependency */,
+			);
+			name = MenterBookUITests;
+			productName = MenterBookUITests;
+			productReference = EE567FE61F6C2B680081B0F6 /* MenterBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE567FBF1F6C2B680081B0F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Maho Misumi";
+				TargetAttributes = {
+					EE567FC61F6C2B680081B0F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EE567FDA1F6C2B680081B0F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE567FC61F6C2B680081B0F6;
+					};
+					EE567FE51F6C2B680081B0F6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE567FC61F6C2B680081B0F6;
+					};
+				};
+			};
+			buildConfigurationList = EE567FC21F6C2B680081B0F6 /* Build configuration list for PBXProject "MenterBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE567FBE1F6C2B680081B0F6;
+			productRefGroup = EE567FC81F6C2B680081B0F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE567FC61F6C2B680081B0F6 /* MenterBook */,
+				EE567FDA1F6C2B680081B0F6 /* MenterBookTests */,
+				EE567FE51F6C2B680081B0F6 /* MenterBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE567FC51F6C2B680081B0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE567FD51F6C2B680081B0F6 /* LaunchScreen.storyboard in Resources */,
+				EE567FD21F6C2B680081B0F6 /* Assets.xcassets in Resources */,
+				EE567FD01F6C2B680081B0F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE567FD91F6C2B680081B0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE567FE41F6C2B680081B0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE567FC31F6C2B680081B0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE567FCD1F6C2B680081B0F6 /* ViewController.swift in Sources */,
+				EE567FCB1F6C2B680081B0F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE567FD71F6C2B680081B0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE567FE01F6C2B680081B0F6 /* MenterBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE567FE21F6C2B680081B0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE567FEB1F6C2B680081B0F6 /* MenterBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE567FDD1F6C2B680081B0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE567FC61F6C2B680081B0F6 /* MenterBook */;
+			targetProxy = EE567FDC1F6C2B680081B0F6 /* PBXContainerItemProxy */;
+		};
+		EE567FE81F6C2B680081B0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE567FC61F6C2B680081B0F6 /* MenterBook */;
+			targetProxy = EE567FE71F6C2B680081B0F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE567FCE1F6C2B680081B0F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE567FCF1F6C2B680081B0F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE567FD31F6C2B680081B0F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE567FD41F6C2B680081B0F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE567FED1F6C2B680081B0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE567FEE1F6C2B680081B0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE567FF01F6C2B680081B0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MenterBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.MenterBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE567FF11F6C2B680081B0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MenterBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.MenterBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE567FF31F6C2B680081B0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MenterBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.MenterBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenterBook.app/MenterBook";
+			};
+			name = Debug;
+		};
+		EE567FF41F6C2B680081B0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MenterBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.MenterBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenterBook.app/MenterBook";
+			};
+			name = Release;
+		};
+		EE567FF61F6C2B680081B0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MenterBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.MenterBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MenterBook;
+			};
+			name = Debug;
+		};
+		EE567FF71F6C2B680081B0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MenterBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maho.com.MenterBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MenterBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE567FC21F6C2B680081B0F6 /* Build configuration list for PBXProject "MenterBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE567FED1F6C2B680081B0F6 /* Debug */,
+				EE567FEE1F6C2B680081B0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE567FEF1F6C2B680081B0F6 /* Build configuration list for PBXNativeTarget "MenterBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE567FF01F6C2B680081B0F6 /* Debug */,
+				EE567FF11F6C2B680081B0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE567FF21F6C2B680081B0F6 /* Build configuration list for PBXNativeTarget "MenterBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE567FF31F6C2B680081B0F6 /* Debug */,
+				EE567FF41F6C2B680081B0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE567FF51F6C2B680081B0F6 /* Build configuration list for PBXNativeTarget "MenterBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE567FF61F6C2B680081B0F6 /* Debug */,
+				EE567FF71F6C2B680081B0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE567FBF1F6C2B680081B0F6 /* Project object */;
+}
