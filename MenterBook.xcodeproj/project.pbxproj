@@ -14,6 +14,10 @@
 		EE567FD51F6C2B680081B0F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE567FD31F6C2B680081B0F6 /* LaunchScreen.storyboard */; };
 		EE567FE01F6C2B680081B0F6 /* MenterBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE567FDF1F6C2B680081B0F6 /* MenterBookTests.swift */; };
 		EE567FEB1F6C2B680081B0F6 /* MenterBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE567FEA1F6C2B680081B0F6 /* MenterBookUITests.swift */; };
+		EE567FFB1F6C2D030081B0F6 /* もちこ.png in Resources */ = {isa = PBXBuildFile; fileRef = EE567FF81F6C2D030081B0F6 /* もちこ.png */; };
+		EE567FFC1F6C2D030081B0F6 /* ゴードン.png in Resources */ = {isa = PBXBuildFile; fileRef = EE567FF91F6C2D030081B0F6 /* ゴードン.png */; };
+		EE567FFD1F6C2D030081B0F6 /* ふなみんさん.png in Resources */ = {isa = PBXBuildFile; fileRef = EE567FFA1F6C2D030081B0F6 /* ふなみんさん.png */; };
+		EE567FFF1F6C70150081B0F6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE567FFE1F6C70150081B0F6 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EE567FE61F6C2B680081B0F6 /* MenterBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenterBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE567FEA1F6C2B680081B0F6 /* MenterBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenterBookUITests.swift; sourceTree = "<group>"; };
 		EE567FEC1F6C2B680081B0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE567FF81F6C2D030081B0F6 /* もちこ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "もちこ.png"; sourceTree = "<group>"; };
+		EE567FF91F6C2D030081B0F6 /* ゴードン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゴードン.png"; sourceTree = "<group>"; };
+		EE567FFA1F6C2D030081B0F6 /* ふなみんさん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ふなみんさん.png"; sourceTree = "<group>"; };
+		EE567FFE1F6C70150081B0F6 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,13 @@
 				EE567FCA1F6C2B680081B0F6 /* AppDelegate.swift */,
 				EE567FCC1F6C2B680081B0F6 /* ViewController.swift */,
 				EE567FCE1F6C2B680081B0F6 /* Main.storyboard */,
+				EE567FF81F6C2D030081B0F6 /* もちこ.png */,
+				EE567FF91F6C2D030081B0F6 /* ゴードン.png */,
+				EE567FFA1F6C2D030081B0F6 /* ふなみんさん.png */,
 				EE567FD11F6C2B680081B0F6 /* Assets.xcassets */,
 				EE567FD31F6C2B680081B0F6 /* LaunchScreen.storyboard */,
 				EE567FD61F6C2B680081B0F6 /* Info.plist */,
+				EE567FFE1F6C70150081B0F6 /* File.swift */,
 			);
 			path = MenterBook;
 			sourceTree = "<group>";
@@ -232,8 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE567FFB1F6C2D030081B0F6 /* もちこ.png in Resources */,
+				EE567FFC1F6C2D030081B0F6 /* ゴードン.png in Resources */,
 				EE567FD51F6C2B680081B0F6 /* LaunchScreen.storyboard in Resources */,
 				EE567FD21F6C2B680081B0F6 /* Assets.xcassets in Resources */,
+				EE567FFD1F6C2D030081B0F6 /* ふなみんさん.png in Resources */,
 				EE567FD01F6C2B680081B0F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE567FCD1F6C2B680081B0F6 /* ViewController.swift in Sources */,
+				EE567FFF1F6C70150081B0F6 /* File.swift in Sources */,
 				EE567FCB1F6C2B680081B0F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
